@@ -1,0 +1,34 @@
+{
+  "name": "vue-clobber",
+  "version": "0.0.1",
+  "description": "Hammer.js wrapper for Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homerjam/vue-clobber.git"
+  },
+  "keywords": [
+    "vue",
+    "hammerjs",
+    "touch",
+    "gesture"
+  ],
+  "author": "homerjam <jameshomer85@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/homerjam/vue-clobber/issues"
+  },
+  "homepage": "https://github.com/homerjam/vue-clobber#readme",
+  "dependencies": {
+    "hammerjs": "^2.0.8"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  }
+}
