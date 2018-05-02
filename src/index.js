@@ -21,7 +21,7 @@ if (typeof window !== 'undefined') {
 
 const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 
-export const Clobber = {
+export default {
   bind(el, binding) {
     if (!el.$hammer) {
       el.$hammer = new Hammer.Manager(el);
